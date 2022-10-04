@@ -1,0 +1,13 @@
+controllers:
+    resource: ../src/Controller/
+    type: attribute
+
+app_joke_home:
+    path: /
+    controller: App\Controller\JokeController::home
+    methods: GET|HEAD
+
+app_joke_get:
+    path: /jokes/{number}
+    controller: App\Controller\JokeController::getJokes
+    methods: POST
