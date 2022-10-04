@@ -1,0 +1,57 @@
+Hello and thanks for taking the time to look over my tech test.
+I used symphony as it seemed as good as any other MVC framework, plus you're already using some components.
+Also I found a github repository with a docker config for symphony already packaged up.. Thus it can run on just about any "modern" operating system and I'm counting on it working on yours. 
+
+TODOs:
+------
+
+- Build in other API's to fetch more jokes. (Time to complete ~ 30 mins per API)
+
+- Large numbers of jokes break the webpage, put them inside a scrollable div or resize the page to fit more text. (Time to complete ~ 1 hour)
+
+- Handle failed requests (http response codes etc.) back-end to APIs. Giving the user comprhensive feedback. (Time to complete ~ 20 mins)
+
+- Handle failed requests from front-end to webserver.  (Time to complete ~ 50 mins)
+
+- Return jokes as json to front end, not a string with embbeded html. (Time to complete ~ 20 mins)
+
+- Styling for sumbit button etc needs work. (Time to complete ~ 40 mins) 
+
+- Give user feedback after submit is clicked, using spinner icon or similar until response is returned. (Time to complete ~ 40 mins)
+
+
+Time scale to complete would prbably be around 6 hours maybe a touch more (I've not added up the above estimates).
+
+Things that slowed me down:
+---------------------------
+
+- familiarising myself with symphony (reading the docs)
+
+- I wasted time trying to pick a css template. In the end I stole a basic one from W3 schools and added bits to it.
+
+
+Things that sped me up:
+-----------------------
+
+- Using a frame work.
+
+- The readability of the symphony docs online.
+
+- Finding a docker install with built in symphony.
+
+
+
+Getting Started (Taken from README.md)
+--------------------------------------
+
+1. If not already done, [install Docker Compose](https://docs.docker.com/compose/install/)
+2. Run `docker compose build --pull --no-cache` to build fresh images
+3. Run `docker compose up` (the logs will be displayed in the current shell) (use `-d` to spin it up in a detached state)
+4. Open `https://localhost` in your favorite web browser and [accept the auto-generated TLS certificate](https://stackoverflow.com/a/15076602/1352334)
+5. Run `docker compose down --remove-orphans` to stop the Docker containers.
+
+
+Some more words
+---------------
+
+Thanks, I enjoyed taking this test. It was a nice challenge to work with a different framework and put something together. 
